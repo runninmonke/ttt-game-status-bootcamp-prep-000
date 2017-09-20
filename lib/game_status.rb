@@ -24,8 +24,7 @@ end
 
 def winner(board)
   win = won?(board)
-  puts win
   if win
-    win = win[0]
+    win = board[win[0]]
   end
 end
